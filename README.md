@@ -1,8 +1,8 @@
-# Frontend Mentor Challenge - Dev Challenges - Community Challenge : title of challenge
+# Dev Challenges: 404 Not Found
 
-_This is a challenge from Frontend Mentor Challenge - Dev Challenges - Community Challenge, specialized in frontend develop, is a title of challenge._
+_This is a challenge from Dev Challenges, specialized in frontend develop, is a 404 Not Found._
 
-## [Try the live demo](https://romerojoseing.github.io/challenge-cards-section/) ⚡
+## [Try the live demo](https://romerojoseing.github.io/challenge-404-Not-Found/) ⚡
 ![Thumbnail](https://github.com/romerojoseing/challenge-cards-section/blob/master/img/capture.png?raw=true)
 
 <br>
@@ -28,7 +28,7 @@ Any browser to open the project.
 _To use this project you will need to clone this repository or download it to your computer. If you choose to download it directly in the upper right part of the repository you will have the option, if it is not your case you can clone it using the following command._
 
 ```ssh
-  $ git clone https://github.com/romerojoseing/UrlOfTheRepository.git
+  $ git clone https://github.com/romerojoseing/challenge-404-Not-Found.git
 ```
 
 <br>
