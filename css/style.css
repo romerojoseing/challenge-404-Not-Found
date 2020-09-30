@@ -1,0 +1,103 @@
+/*--------------------------------------------------------------
+# Font
+--------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+
+:root{
+--white: hsl(0, 0%, 100%);
+
+}
+
+
+
+/*--------------------------------------------------------------
+# General Styles
+--------------------------------------------------------------*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+img {
+  border-style: none;
+}
+
+.wrapper{
+  padding: 0 25px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Section
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Scroll
+--------------------------------------------------------------*/
+
+/* Tamaño del scroll */
+.body-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+ /* Estilos barra (thumb) de scroll */
+.body-scrollbar::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.body-scrollbar::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+.body-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+ /* Estilos track de scroll */
+.body-scrollbar::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 4px;
+}
+
+.body-scrollbar::-webkit-scrollbar-track:hover, 
+.body-scrollbar::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
