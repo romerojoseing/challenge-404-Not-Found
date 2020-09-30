@@ -2,7 +2,7 @@
 # Font
 --------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
 
 
 
@@ -12,7 +12,10 @@
 
 :root{
 --white: hsl(0, 0%, 100%);
-
+--cyan: #18d4ce;
+--red: #ed2651;
+--title: #3d3d3d;
+--text: #4f4f4f;
 }
 
 
@@ -28,7 +31,12 @@
 }
 
 body{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Space Mono', monospace;
+}
+
+p{
+  font-weight: 400;
+  color: var(--text);
 }
 
 a{
@@ -41,10 +49,14 @@ b, strong {
 
 img {
   border-style: none;
+  width: 290px;
+  height: 240px;
+  display: flex;
+  margin: 0 auto;
 }
 
 .wrapper{
-  padding: 0 25px;
+  padding: 25px 25px;
 }
 
 
@@ -53,11 +65,56 @@ img {
 # Header
 --------------------------------------------------------------*/
 
+header{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav{
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: var(--title);
+  letter-spacing: -2px;
+}
+
 
 
 /*--------------------------------------------------------------
 # Section
 --------------------------------------------------------------*/
+
+h1{
+  font-weight: 700;
+  font-size: 2.75em;  
+  color: var(--title);
+  margin: 35px 0;
+}
+
+.content{
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.text{
+  line-height: 1.5em;
+  max-width: 350px;
+}
+
+.button{
+  font-family: 'Space Mono', monospace;
+  color: var(--white);
+  background-color: var(--title);
+  width: 220px;
+  height: 70px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  cursor: pointer;
+}
 
 
 
@@ -65,6 +122,53 @@ img {
 # Footer
 --------------------------------------------------------------*/
 
+.footer{
+  text-align: center;
+}
+
+.footer a{
+  color: var(--cyan);
+  font-weight: bold;
+}
+
+
+
+/*--------------------------------------------------------------
+# Media Queries
+--------------------------------------------------------------*/
+
+@media screen and (min-width: 1120px){
+    
+    .wrapper{
+      margin: 0px 50px
+    }
+  
+    .sections{
+      display: flex;
+      justify-content: center;
+    }
+
+    h1{
+      margin-top: 0;
+    }
+
+    img{
+      width: 450px;
+      height: 331px;
+      max-width: 500px;
+      margin-right: 50px;
+    }
+
+    .content{
+      margin: 0;
+  }
+}
+
+@media screen and (max-width: 746px){
+    .content{
+      margin: 0 auto;
+  }
+}
 
 
 /*--------------------------------------------------------------
