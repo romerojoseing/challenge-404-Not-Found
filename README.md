@@ -3,7 +3,7 @@
 _This is a challenge from Dev Challenges, specialized in frontend develop, is a 404 Not Found._
 
 ## [Try the live demo](https://romerojoseing.github.io/challenge-404-Not-Found/) ⚡
-![Thumbnail](https://github.com/romerojoseing/challenge-cards-section/blob/master/img/capture.png?raw=true)
+![Thumbnail](https://github.com/romerojoseing/challenge-404-Not-Found/blob/master/design/design.png?raw=true)
 
 <br>
 
